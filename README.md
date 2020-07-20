@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Minimum API level: 26 (Android 8.0)
+Minimum API level: 19 (Android 4.4)
 
 ## Installation
 
@@ -14,21 +14,6 @@ the following lines to your app-module **build.gradle** file:
 ```gradle
 repositories {
     maven { url "https://artifactory.jointag.com/artifactory/next14" }
-}
-```
-### Set the JAVA compatibility version
-
-In the `android` block of your app-module **build.gradle** file add the following:
-
-```gradle
-android {
-
-  ...
-  // Add the following lines
-  compileOptions {
-    sourceCompatibility JavaVersion.VERSION_1_8
-    targetCompatibility JavaVersion.VERSION_1_8
-  }
 }
 ```
 
