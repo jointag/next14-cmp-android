@@ -27,7 +27,7 @@ dependencies {
     ...
 
     // Add the following line
-    implementation 'com.next14.cmp:cmp-sdk:1.0.0'
+    implementation 'com.next14.cmp:cmp-sdk:1.1.0'
 }
 ```
 
