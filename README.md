@@ -3,6 +3,9 @@
 ## Requirements
 
 Minimum API level: 19 (Android 4.4)
+Minimum Kotlin version: 1.5.31
+
+The library depends on AndroidX libraries. Old support libraries are no longer supported.
 
 ## Installation
 
@@ -27,7 +30,7 @@ dependencies {
     ...
 
     // Add the following line
-    implementation 'com.next14.cmp:cmp-sdk:1.1.0'
+    implementation "com.next14.cmp:cmp-sdk:1.2.0"
 }
 ```
 
