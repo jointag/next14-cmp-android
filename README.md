@@ -30,7 +30,7 @@ dependencies {
     ...
 
     // Add the following line
-    implementation "com.next14.cmp:cmp-sdk:1.2.0"
+    implementation "com.next14.cmp:cmp-sdk:1.2.1"
 }
 ```
 
